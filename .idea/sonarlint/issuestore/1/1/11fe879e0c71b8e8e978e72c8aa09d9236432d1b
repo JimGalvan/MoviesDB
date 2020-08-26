@@ -1,0 +1,18 @@
+
+u
+java:S2293+"YReplace the type specification in this constructor call with the diamond operator ("<>").(³·Á'8ƒ€«ÈÂ.
+U
+java:S1128"3Remove this unused import 'javafx.fxml.FXMLLoader'.(À‡ô³úÿÿÿÿ8†İ›ÈÂ.
+S
+java:S1144H"1Remove this unused private "displayAlert" method.(¡íáçùÿÿÿÿ8İøíÈÂ.
+>
+java:S1116"Remove this empty statement.(˜Öäñşÿÿÿÿ8ƒ€«ÈÂ.
+v
+java:S2293."YReplace the type specification in this constructor call with the diamond operator ("<>").(É¯â¸8ƒ€«ÈÂ.
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÎâøĞşÿÿÿÿ8ªµ‘œÂ.
+{
+java:S2293-"YReplace the type specification in this constructor call with the diamond operator ("<>").(ŠˆƒÂùÿÿÿÿ8ƒ€«ÈÂ.
+u
+java:S2293,"YReplace the type specification in this constructor call with the diamond operator ("<>").(‰ş8ƒ€«ÈÂ.
+R
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8ìø›ÈÂ.

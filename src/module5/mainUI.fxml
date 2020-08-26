@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="645.0" prefWidth="889.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="module5.Controller">
+   <top>
+      <ToolBar prefHeight="40.0" prefWidth="889.0" BorderPane.alignment="CENTER">
+         <items>
+            <Label text="Movies manager">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </items>
+      </ToolBar>
+   </top>
+   <center>
+      <AnchorPane fx:id="rootPane" prefHeight="518.0" prefWidth="889.0" BorderPane.alignment="CENTER">
+         <children>
+            <TableView fx:id="tableView" layoutY="232.0" prefHeight="340.0" prefWidth="889.0">
+              <columns>
+                  <TableColumn fx:id="movieIDColumn" prefWidth="71.0" text="Movie ID" />
+                <TableColumn fx:id="nameColumn" prefWidth="92.0" text="Name" />
+                <TableColumn fx:id="ratingColumn" prefWidth="101.0" text="Rating" />
+                  <TableColumn fx:id="descriptionColumn" prefWidth="624.0" text="Description" />
+              </columns>
+            </TableView>
+            <GridPane prefHeight="234.0" prefWidth="889.0">
+               <columnConstraints>
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="439.0" minWidth="10.0" prefWidth="255.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="637.0" minWidth="10.0" prefWidth="634.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints maxHeight="174.0" minHeight="10.0" prefHeight="52.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" prefHeight="89.0" valignment="TOP" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="106.0" minHeight="0.0" prefHeight="39.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="106.0" minHeight="10.0" prefHeight="58.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Label alignment="CENTER" text="Name" textAlignment="CENTER" />
+                  <Label text="Rating" GridPane.rowIndex="2" />
+                  <Label text="Description (500 characters max.)" GridPane.rowIndex="1" />
+                  <TextField fx:id="nameTextField" text="movie name" GridPane.columnIndex="1">
+                     <GridPane.margin>
+                        <Insets right="10.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <TextArea fx:id="descriptionTextField" prefHeight="62.0" prefWidth="624.0" text="Description" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets right="10.0" />
+                     </GridPane.margin>
+                  </TextArea>
+                  <Button fx:id="saveMovieButton" mnemonicParsing="false" onAction="#saveMovie" text="Save movie" GridPane.rowIndex="3" />
+                  <ChoiceBox fx:id="choiceBox" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+               </children>
+            </GridPane>
+         </children></AnchorPane>
+   </center>
+</BorderPane>

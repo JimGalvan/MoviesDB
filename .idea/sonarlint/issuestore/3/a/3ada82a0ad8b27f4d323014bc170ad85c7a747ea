@@ -1,0 +1,4 @@
+
+“
+java:S1845%"wRename method "movieIDProperty" to prevent any misunderstanding/clash with method "movieIdProperty" defined on line 20.(¡Üªy8Çş½Â.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÎâøĞşÿÿÿÿ

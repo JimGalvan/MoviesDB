@@ -1,0 +1,14 @@
+
+H
+java:S11680"+Return an empty collection instead of null.(¥¹ï8Û’ıÀÂ.
+O
+java:S1068
+"-Remove this unused "resultSet" private field.(¿ˆ°úÿÿÿÿ8ğ³²ÁÂ.
+K
+java:S2115")Add password protection to this database.(‹æã¾ùÿÿÿÿ8óõÓÀÂ.
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÎâøĞşÿÿÿÿ8ğ½Â.
+Z
+java:S1117 "=Rename "resultSet" which hides the field declared at line 10.(Â€šÁ8¦ÿğÀÂ.
+F
+java:S2115J")Add password protection to this database.(ø„ëÕ8ãá‰ÅÂ.
+Z	java:S106M"9Replace this use of System.out or System.err by a logger.(¨­£¨ùÿÿÿÿ8Öµ¹ÆÂ.
